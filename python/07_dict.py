@@ -27,3 +27,9 @@ print(my_dict.get("city", "City not found"))
 # dictionary comprehension
 squared_dict = {x: x**2 for x in range(5)}
 print(squared_dict)
+# nested dictionary
+nested_dict = {
+    "person1": {"name": "Alice", "age": 30},
+    "person2": {"name": "Bob", "age": 25}
+}
+print(nested_dict)
